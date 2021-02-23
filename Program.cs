@@ -325,24 +325,33 @@ namespace Project
             //}
 
 
-            Console.WriteLine("Вправа 7");
-            Console.Write("Введіть номер операції: ");
-            string num = Console.ReadLine();
-            switch (num)
-            {
-                case "1":
-                    Console.WriteLine("Складення операція");
-                    break;
-                case "2":
-                    Console.WriteLine("Віднімання операція");
-                    break;
-                case "3":
-                    Console.WriteLine("Множення операція");
-                    break;
-                default:
-                    Console.WriteLine("Операція невизначена");
-                    break;
-            }
+            //Console.WriteLine("Вправа 7");
+            //int a, b, num;
+            //Console.Write("Введіть a: ");
+            //a = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Введіть b: ");
+            //b = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Введіть номер операції: ");
+            //num = Convert.ToInt32(Console.ReadLine());
+            //switch (num)
+            //{
+            //    case 1:
+            //        num = a + b;
+            //        Console.WriteLine($"Складення операція, num= {num}");
+                     
+            //        break;
+            //    case 2:
+            //        num = a - b;
+            //        Console.WriteLine($"Віднімання операція, num= {num}");
+            //        break;
+            //    case 3:
+            //        num = a * b;
+            //        Console.WriteLine($"Множення операція, num= {num}");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Операція невизначена");
+            //        break;
+            //}
 
 
 
