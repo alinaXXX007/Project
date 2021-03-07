@@ -402,6 +402,33 @@ namespace Project
             //}
 
 
+
+            //Console.WriteLine("Task 5.65");
+            //int country = 4;
+            //double S = 0;   
+            //for (int i = 0; i < country; i++)
+            //{
+            //    Console.Write("Введіть чисельність населення" + (i + 1) + "-ї країни:");
+            //    int s = Convert.ToInt32(Console.ReadLine());
+            //    Console.Write("Введіть її площа:");
+            //    int a = Convert.ToInt32(Console.ReadLine());
+            //    S += a;
+            //}
+            //Console.Write($"Загальна площа країни: {S}");
+
+
+            //Console.WriteLine("Task 5.89");
+            //int sum = 0;
+            //int f=1;
+            //for (int i=1; i<=10; i++)
+            //{
+            //    f = f * i;
+            //    sum += f;
+
+            //}
+            //Console.WriteLine($"{sum}");
+
+
             //Console.WriteLine("task 6.17");
             //Console.Write("input a = ");
             //double a;
@@ -463,6 +490,55 @@ namespace Project
             //Console.WriteLine($"{m}");
 
 
+
+            //Console.WriteLine("Task 6.65");
+            //int[] a = new int[15] { 1, 4, 4, 2, 3, 7, 5, 9, 1, 1, 3, 6, 3, 6, 6 };
+            //int i1 = 0;
+            //int i2 = 0;
+            //for (int i = 0; i < 14; i++)
+            //{
+            //    for (int j = i + 1; j < 15; j++)
+            //    {
+            //        if (a[i] == a[j])
+            //        {
+            //            i1 = i;
+            //            i2 = j;
+
+            //        }
+            //    }
+            //}
+            //if (i1 != i2) 
+            //    {
+            //    Console.WriteLine($"{i1}, {i2}");
+            //    }
+            //else  
+            //{
+            //    Console.WriteLine("All numbers are different"); 
+            //}
+
+
+
+            //Console.WriteLine("Task 7.41");
+            //int[] a = new int[15] { 2, 2, 2, 5, 3, 3, 4, 4, 4, 4, 5, 5, 3, 5, 5 };
+            //int A = 0;
+            //int B = 0;
+            //int C = 0;
+            //int D = 0;
+            //for (int i = 0; i < 15; i++)
+            //{
+            //    if (a[i] == 5)
+            //        A++;
+            //    else if (a[i] == 4)
+            //        B++;
+            //    else if (a[i] == 3)
+            //        C++;
+            //    else
+            //        D++;
+
+            //}
+            //Console.WriteLine($"A={A}, B={B}, C={C}, D={D}");
+
+
             //Console.WriteLine("Task порахувати кількість простих чисел"); 
             //int i, count, j, n; 
             //count= 10;
@@ -480,30 +556,6 @@ namespace Project
             //    Console.WriteLine($"{count} ");
 
 
-            //Console.WriteLine("Task 5.65");
-            //int country = 4;
-            //double S = 0;   
-            //for (int i = 0; i < country; i++)
-            //{
-            //    Console.Write("Введіть чисельність населення" + (i + 1) + "-ї країни:");
-            //    int s = Convert.ToInt32(Console.ReadLine());
-            //    Console.Write("Введіть її площа:");
-            //    int a = Convert.ToInt32(Console.ReadLine());
-            //    S += a;
-            //}
-            //Console.Write($"Загальна площа країни: {S}");
-
-
-            //Console.WriteLine("Task 5.89");
-            //int sum = 0;
-            //int f=1;
-            //for (int i=1; i<=10; i++)
-            //{
-            //    f = f * i;
-            //    sum += f;
-                 
-            //}
-            //Console.WriteLine($"{sum}");
 
 
 
