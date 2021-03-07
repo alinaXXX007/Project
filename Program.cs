@@ -338,7 +338,7 @@ namespace Project
             //    case 1:
             //        num = a + b;
             //        Console.WriteLine($"Складення операція, num= {num}");
-                     
+
             //        break;
             //    case 2:
             //        num = a - b;
@@ -352,6 +352,160 @@ namespace Project
             //        Console.WriteLine("Операція невизначена");
             //        break;
             //}
+
+
+            //laba 2
+            //Console.WriteLine("task 5.17a");
+            //int x, t;
+            //for (x = 4; x < 28; x++)
+            //{
+            //    t = x + 2;
+            //    int y = Convert.ToInt32((2 * Math.Pow(t, 2)) + 5);
+            //    Console.WriteLine($"y={y}");
+            // }
+
+            //Console.WriteLine("task 5.17b");
+            //int x, t;
+            //for (x = 4; x < 28; x++)
+            //{
+            //    t = x + 2;
+            //    int y = 5*t-2;
+            //    Console.WriteLine($"y={y}");
+            //}
+
+
+            //Console.WriteLine("task 5.23");
+            //double x;
+            //for (x = 2.1; x < 2.9; x=x+0.10)
+            //{
+            //    x = Math.Round(x, 2);
+            //    Console.WriteLine($"x={x}");
+            //}
+
+
+            //Console.WriteLine("task 5.26");
+            //double x;
+            //for (x = 4.4; x < 6.6; x = x + 0.2)
+            //{
+            //    x = Math.Round(x, 2);
+            //    Console.WriteLine($"x={x}");
+            //}
+
+
+            //Console.WriteLine("task 5.41"); 
+            //double sum = 0;
+            //int[] nums = new int[12] {1,1,1,1,1,1,1,1,1,1,1,1};
+            //for (int i = 0; i<= 12; i++)
+            //{
+            //    sum += nums[i];
+            //    Console.WriteLine($"Загальна маса предметів = {sum}");
+            //}
+
+
+            //Console.WriteLine("task 6.17");
+            //Console.Write("input a = ");
+            //double a;
+            //int n;
+            //n = 1;
+            //a = Convert.ToDouble(Console.ReadLine());
+            //while (1/n>a) 
+            //{
+
+            //    Console.WriteLine($"n ={n}");
+            //    n += 1;
+            //}
+
+
+
+            //Console.WriteLine("task 7.17");
+            //double sum = 0;
+            //Console.Write("input n: ");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int[] m = new int[12] { 2, 4, 6, 2, 3, 7, 5, 9, 6, 3, 4, 6 };
+            //for (int i = 0; i <= 12; i++)
+            //{
+            //    if (m[i] % n == 0)
+            //        sum += m[i];
+            //    Console.WriteLine($"Загальна маса предметів = {sum}");
+
+            //} 
+
+
+            //Console.WriteLine("Task 6.41a");
+            //Console.Write("input a= ");
+            //int m, a;
+            //a = Convert.ToInt32(Console.ReadLine());
+            //m = a % 10;
+            //a = a / 10;
+            //while (a>0)
+            //{
+            //    if (a % 10 > m)
+            //        m = a % 10;
+            //    a = a / 10;
+
+            // }
+            //Console.WriteLine($"{m}");
+
+
+            //Console.WriteLine("Task 6.41b");
+            //Console.Write("input a= ");
+            //int m, a;
+            //a = Convert.ToInt32(Console.ReadLine());
+            //m = a % 10;
+            //a = a / 10;
+            //while (a > 0)
+            //{
+            //    if (a % 10 < m)
+            //        m = a % 10;
+            //    a = a / 10;
+
+            //}
+            //Console.WriteLine($"{m}");
+
+
+            //Console.WriteLine("Task порахувати кількість простих чисел"); 
+            //int i, count, j, n; 
+            //count= 10;
+            //for (i = 0; i < 10; i++)
+            //{
+            //    Console.WriteLine("input n: ");
+            //    n = Convert.ToInt32(Console.ReadLine());
+            //    for (j = 2; j <= (Math.Sqrt(n)) + 1; j++)
+            //        if (n % j == 0)
+            //        {
+            //            count -= 1;
+            //            break;
+            //        }
+            //}
+            //    Console.WriteLine($"{count} ");
+
+
+            //Console.WriteLine("Task 5.65");
+            //int country = 4;
+            //double S = 0;   
+            //for (int i = 0; i < country; i++)
+            //{
+            //    Console.Write("Введіть чисельність населення" + (i + 1) + "-ї країни:");
+            //    int s = Convert.ToInt32(Console.ReadLine());
+            //    Console.Write("Введіть її площа:");
+            //    int a = Convert.ToInt32(Console.ReadLine());
+            //    S += a;
+            //}
+            //Console.Write($"Загальна площа країни: {S}");
+
+
+            //Console.WriteLine("Task 5.89");
+            //int sum = 0;
+            //int f=1;
+            //for (int i=1; i<=10; i++)
+            //{
+            //    f = f * i;
+            //    sum += f;
+                 
+            //}
+            //Console.WriteLine($"{sum}");
+
+
 
 
 
