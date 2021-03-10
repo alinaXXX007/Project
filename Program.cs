@@ -4,24 +4,28 @@ namespace Project
 {
     class Program
     {
+        static void Laba1()
+        {
+            Console.WriteLine("Лабораторна 1");
+            string buf;
+            Console.WriteLine("Input m: ");
+            buf = Console.ReadLine();
+            double m = Convert.ToDouble(buf);
+
+            double y = -Math.Sqrt(m);
+
+            double y1 = Math.Sqrt(Math.Pow((3 * m + 2), 2) - 24 * m) / (3 * Math.Sqrt(m) - 2 / Math.Sqrt(m));
+
+            Console.WriteLine($"m = {m}");
+            Console.WriteLine("Result =" + y);
+            Console.WriteLine("Result =" + y1);
+
+
+        }
+
         static void Main(string[] args)
         {
-            //Console.WriteLine("Лабораторна 1");
-            //string buf;
-            //Console.WriteLine("Input m: ");
-            //buf = Console.ReadLine();
-            //double m = Convert.ToDouble(buf);
-
-
-            //double y = -Math.Sqrt(m);
-
-            //double y1 = Math.Sqrt(Math.Pow((3 * m + 2), 2) - 24 * m) / (3 * Math.Sqrt(m) - 2 / Math.Sqrt(m));
-
-            //Console.WriteLine($"m = {m}");
-            //Console.WriteLine("Result =" + y);
-            //Console.WriteLine("Result =" + y1);
-
-
+            
 
             //Console.WriteLine("Лабораторна 2");
 
@@ -539,6 +543,34 @@ namespace Project
             //Console.WriteLine($"A={A}, B={B}, C={C}, D={D}");
 
 
+
+            //Console.WriteLine("Task 7.65");
+            //float[] b = new float[10] { 7,8, 3, 4, 2, 5, 8, 7, 22, 3 };
+            //float max;  
+            //int index;   
+            //int i;
+            //index = 0;
+            //max = b [0]; 
+            //for (i = 1; i < 10; i++)
+            //    if (max < b [i])
+            //    {
+            //        max = b[i];  
+            //        index = i;  
+            //    }
+            //float min = b[0];
+            //for (i = 1; i < 10; i++)
+            //    if (min > b[i])
+            //    {
+            //        min = b[i];
+            //        index = i;
+            //    }
+            //float a = max - min;
+            //Console.WriteLine($"max={max}");
+            //Console.WriteLine($"min={min}");
+            //Console.WriteLine($"Різниця між на max i min = {a}");
+
+
+
             //Console.WriteLine("Task порахувати кількість простих чисел"); 
             //int i, count, j, n; 
             //count= 10;
@@ -555,6 +587,24 @@ namespace Project
             //}
             //    Console.WriteLine($"{count} ");
 
+
+
+            //Console.WriteLine("Сортування масиву методом вставки"); 
+            //int[] b = new int[10] { 7, 8, 3, 4, 2, 5, 8, 7, 22, 3 };
+            //int i, j; 
+            //int t;
+             
+            //for (i = 0; i < 9; i++)
+            //    for (j = i; j >= 0; j--)
+            //        if (b[j] < b[j + 1])
+            //        {
+            //            t = b[j];
+            //            b[j] = b[j + 1];
+            //            b[j + 1] = t;
+            //            Console.Write($"{t} ");
+
+            //        }
+            
 
 
 
