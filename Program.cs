@@ -6,7 +6,7 @@ namespace Project
     {
         static void Laba1()
         {
-            Console.WriteLine("Лабораторна 1");
+            //"Лабораторна 1"
             string buf;
             Console.WriteLine("Input m: ");
             buf = Console.ReadLine();
@@ -23,11 +23,9 @@ namespace Project
 
         }
 
-        static void Main(string[] args)
+        static void Laba2()
         {
-            
-
-            //Console.WriteLine("Лабораторна 2");
+            //Лабораторна 2"
 
             /*
             Console.WriteLine("завдання 4.17 b");
@@ -239,6 +237,8 @@ namespace Project
             //        Console.WriteLine("Black Pig");
 
 
+            //Завдання на metanit
+
             //Console.WriteLine("Вправа 1 ");
             //int a, b;
             //Console.Write("Ввeдіть а:  ");
@@ -251,6 +251,8 @@ namespace Project
             //    Console.WriteLine("Два числа рівні");
             //else
             //    Console.WriteLine("Друге число більше першого");
+
+
 
             //Console.WriteLine("Вправа 2 ");
             //int a;
@@ -357,8 +359,13 @@ namespace Project
             //        break;
             //}
 
+        }
 
-            //laba 2
+        static void Main(string[] args)
+        {
+            //Лабораторна робота 3
+
+
             //Console.WriteLine("task 5.17a");
             //int x, t;
             //for (x = 4; x < 28; x++)
@@ -447,21 +454,6 @@ namespace Project
             //}
 
 
-
-            //Console.WriteLine("task 7.17");
-            //double sum = 0;
-            //Console.Write("input n: ");
-            //int n = Convert.ToInt32(Console.ReadLine());
-            //int[] m = new int[12] { 2, 4, 6, 2, 3, 7, 5, 9, 6, 3, 4, 6 };
-            //for (int i = 0; i <= 12; i++)
-            //{
-            //    if (m[i] % n == 0)
-            //        sum += m[i];
-            //    Console.WriteLine($"Загальна маса предметів = {sum}");
-
-            //} 
-
-
             //Console.WriteLine("Task 6.41a");
             //Console.Write("input a= ");
             //int m, a;
@@ -520,6 +512,19 @@ namespace Project
             //    Console.WriteLine("All numbers are different"); 
             //}
 
+
+            //Console.WriteLine("task 7.17");
+            //double sum = 0;
+            //Console.Write("input n: ");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int[] m = new int[12] { 2, 4, 6, 2, 3, 7, 5, 9, 6, 3, 4, 6 };
+            //for (int i = 0; i <= 12; i++)
+            //{
+            //    if (m[i] % n == 0)
+            //        sum += m[i];
+            //    Console.WriteLine($"Загальна маса предметів = {sum}");
+
+            //} 
 
 
             //Console.WriteLine("Task 7.41");
@@ -593,7 +598,7 @@ namespace Project
             //int[] b = new int[10] { 7, 8, 3, 4, 2, 5, 8, 7, 22, 3 };
             //int i, j; 
             //int t;
-             
+
             //for (i = 0; i < 9; i++)
             //    for (j = i; j >= 0; j--)
             //        if (b[j] < b[j + 1])
@@ -604,7 +609,7 @@ namespace Project
             //            Console.Write($"{t} ");
 
             //        }
-            
+
 
 
 
