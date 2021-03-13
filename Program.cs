@@ -611,6 +611,117 @@ namespace Project
             //        }
 
 
+            //Console.WriteLine("Сортування масиву методом вибору");
+            //int[] b = new int[10] { 7, 8, 3, 4, 2, 5, 8, 7, 22, 3 };
+            //int i, min, j, k;
+
+            //for (i = 0; i < b.Length - 1; i++)
+            //{
+            //    min = i;
+            //    for (j = i + 1; j < b.Length; j++)
+            //    {
+            //        if (b[j] > b[min])
+            //        {
+            //            min = j;
+            //        }
+
+            //    }
+            //    if (min != i)
+            //    {
+            //        k = b[i];
+            //        b[i] = b[min];
+            //        b[min] = k;
+            //    }
+
+            //}
+            //Console.Write($"{b}");
+
+
+            //Лабораторна робота 4
+
+            //Console.WriteLine("Task 11.11");
+            //int[] myArrey = new int[20];
+            //Random rand = new Random();
+            //for (int i=0; i<myArrey.Length; i++)
+            //{
+            //    myArrey[i] = rand.Next(20);
+            //    Console.WriteLine($"{myArrey[i]}");
+            //}
+
+
+            //Console.WriteLine("Task 11.17a,b,c");
+            //int[] myArrey = new int[5]; 
+            //Random rand = new Random();
+            //for (int i = 0; i < myArrey.Length; i++)
+            //{
+            //    myArrey[i] = rand.Next(20); 
+            //    Console.Write($"{myArrey[i ]} ");
+
+            //}
+            //Console.WriteLine(" ");
+            //for (int i = 0; i < myArrey.Length; i++)
+            //{
+            //    myArrey[i] = 2 * myArrey[i];
+            //    Console.Write($"{myArrey[i]} ");
+            //}
+            //Console.WriteLine(" ");
+            //Console.Write("Введіть число А");
+            //int A = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 0; i < myArrey.Length; i++)
+            //{
+            //    myArrey[i] = myArrey[i]-A;
+            //    Console.Write($"{myArrey[i]} ");
+            //}
+            //Console.WriteLine(" ");
+            //for (int i = 0; i < myArrey.Length; i++)
+            //{
+            //    myArrey[i] = myArrey[i]/myArrey[0];
+            //    Console.Write($"{myArrey[i]} ");
+            //}
+
+
+            //Console.WriteLine("Task 11.41");
+            //int[] myArrey = new int[5];
+            //Random rand = new Random();
+            //for (int i = 0; i < myArrey.Length; i++)
+            //{
+            //    myArrey[i] = rand.Next(20);
+            //    Console.Write($"Масив {myArrey[i]} ");
+                
+            //}
+            //Console.WriteLine(" ");
+            //for (int i = 0; i < myArrey.Length; i++)
+            //{
+            //    if (myArrey[i] %2== 0)
+            //    {
+                    
+            //        Console.Write($"Парні елементи: {myArrey[i]} ");
+                   
+            //    }  
+            //}
+            //Console.WriteLine(" ");
+            //for (int i = 0; i < myArrey.Length; i++)
+            //{
+            //    if (myArrey[i] % 2 != 0)
+            //    {
+
+            //        Console.Write($"Непарні елементи: {myArrey[i]} ");
+                   
+            //    }
+            //}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
