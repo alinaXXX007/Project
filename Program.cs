@@ -572,7 +572,7 @@ namespace Project
             //float a = max - min;
             //Console.WriteLine($"max={max}");
             //Console.WriteLine($"min={min}");
-            //Console.WriteLine($"Різниця між на max i min = {a}");
+            //Console.WriteLine($"Різниця між max i min = {a}");
 
 
 
@@ -686,17 +686,17 @@ namespace Project
             //for (int i = 0; i < myArrey.Length; i++)
             //{
             //    myArrey[i] = rand.Next(20);
-            //    Console.Write($"Масив {myArrey[i]} ");
-                
+            //    Console.Write($"{myArrey[i]} ");  
             //}
+
             //Console.WriteLine(" ");
             //for (int i = 0; i < myArrey.Length; i++)
             //{
             //    if (myArrey[i] %2== 0)
             //    {
-                    
+
             //        Console.Write($"Парні елементи: {myArrey[i]} ");
-                   
+
             //    }  
             //}
             //Console.WriteLine(" ");
@@ -706,15 +706,149 @@ namespace Project
             //    {
 
             //        Console.Write($"Непарні елементи: {myArrey[i]} ");
-                   
+
             //    }
             //}
 
 
 
+            //Console.WriteLine("Task 11.65");
+            //double[] myArrey = new double[28];
+            //Random rand = new Random();
+            //for (int i = 0; i < myArrey.Length; i++)
+            //{
+            //    myArrey[i] = rand.Next(28);
+            //    Console.Write($"{myArrey[i]} ");
+            //}
+            //Console.WriteLine(" ");
+            //int count;
+            //count = 0;
+            //for (int i = 0; i < myArrey.Length; i++)
+            //{
+            //    if (myArrey[i] == 0)
+            //    {
+            //        count += 1; 
+            //    } 
+            //}
+            //Console.Write($" кі-сть днів коли осадки =0 :{count}");
 
 
 
+            //Console.WriteLine("Task 11.89");
+            //double[] hight = new double[13] { -154, -176, 155, 167, -154, 153, 155, 166, -170, 164, 159, 167, -170 };
+            //double girlHight = 0;
+            //double boyHight = 0;
+            //int countB = 0;
+            //int countG = 0;
+            //foreach (double item in hight)
+            //{
+
+            //    if (item < 0)
+            //    {
+            //        countB += 1;
+            //        boyHight += item;
+            //    }
+            //    else
+            //    {
+            //        countG += 1;
+            //        girlHight += item;
+            //    }
+
+            //}
+            //string c = ((boyHight / countB) - (girlHight / countG) >= 10) ? "так середній зріст хлопців більший на 10см" : "середній зріст не більше на 10";
+            //Console.WriteLine($"{boyHight * (-1)}");
+            //Console.WriteLine($"{countB}");
+            //Console.WriteLine($"{girlHight}");
+            //Console.WriteLine($"{countG}");
+            //Console.WriteLine($"{c}");
+
+
+
+            //Console.WriteLine("Task 11.113");
+            //double[] myArrey = new double[10];
+            //Random rand = new Random();
+            //for (int i = 0; i < myArrey.Length; i++)
+            //{
+            //    myArrey[i] = rand.Next(1930,2010);
+            //    Console.Write($"{myArrey[i]} ");
+            //}
+            //Console.WriteLine(" ");
+            //int max = 0;
+            //bool a=true;
+            //foreach(int item in myArrey)
+            //{
+            //    if (a)
+            //    {
+            //        max = item;
+            //        a = false;
+            //    }
+            //    else
+            //    {
+            //        if (max<item)
+            //        {
+            //            max = item;
+            //        }
+
+            //    }
+            //}
+            //Console.WriteLine(" ");
+            //int min = 0;
+            //bool b = true;
+            //foreach (int item in myArrey)
+            //{
+            //    if (b)
+            //    {
+            //        min = item;
+            //        b = false;
+            //    }
+            //    else
+            //    {
+            //        if (min > item)
+            //        {
+            //            min = item;
+            //        }
+
+            //    }
+            //}
+            //int difference = max - min;
+            //Console.WriteLine($"{max}=max");
+            //Console.WriteLine($"{min}=min");
+            //Console.WriteLine($"{difference} років = різниця між найстаршим і намолодшим.");
+
+
+
+            //Console.WriteLine("Task 11.137");
+            //float[] a = new float[20];
+            //Random rand = new Random();
+            //for (int item = 0; item < a.Length; item++)
+            //{
+            //    a[item] = rand.Next(20);
+            //    Console.Write($"{a[item]} ");
+            //}
+
+            //Console.WriteLine(" ");
+            //int i, max1, max2, buff;
+            //if (a[0] > a[1])
+            //{
+            //    max1 = 1;
+            //    max2 = 0;
+            //}
+            //else {
+            //    max1 = 0;
+            //    max2 = 1;
+            //} 
+            //for(i = 2 ; i < a.Length; i++ ) {
+            //    if (a[i] > a[max1])
+            //    {
+            //        buff = max1;
+            //        max1 = i;
+            //        if (a[buff] > a[max2]) max2 = buff;
+            //    }
+            //    else {
+            //        if (a[i] > a[max2]) max2 = i;
+            //    }
+            //} 
+            //Console.Write($"{a[max1]} -- перше місце, {a[max2]}--друге місце");
 
 
 
