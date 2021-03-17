@@ -575,6 +575,84 @@ namespace Project
             //Console.WriteLine($"Різниця між max i min = {a}");
 
 
+            //Console.WriteLine("Task 8.41");
+            //for (int i = 0; i <= 30; i++)
+            //    for (int j = 0; j <= 30; j++)
+            //        for (int k = 0; k <= 30; k++)
+            //            if (i * i + j * j == k * k)
+
+            //                if (i != j)
+            //                {
+            //                    Console.WriteLine($"{i}, {j}");
+            //                }
+
+
+            //tasks in metanit
+
+            //task1
+            //Console.WriteLine("Введіть суму вкладу:");
+            //decimal sum = Convert.ToDecimal(Console.ReadLine());
+            //Console.WriteLine("Введіть кількість місяців::");
+            //int b = Convert.ToInt32(Console.ReadLine()); 
+            //for (int i = 0; i <= b; i++)
+            //{
+            //    sum += sum * 0.07M;
+
+            //}
+            //Console.WriteLine($"Кінцева сума вкладу: {sum}");
+
+
+            //task2
+            //Console.WriteLine("Введіть суму вкладу:");
+            //decimal sum = Convert.ToDecimal(Console.ReadLine());
+            //Console.WriteLine("Введіть кількість місяців::");
+            //int b = Convert.ToInt32(Console.ReadLine());
+            //int i = 0;
+            //while (i <= b)
+            //{
+            //    sum += sum * 0.07M; 
+            //    i++;
+            //}
+            //Console.WriteLine($"Кінцева сума вкладу: {sum}");
+
+
+
+            //task3
+            //for (int i=1; i<=10; i++)
+            //{
+            //    for (int j = 1; j <= 10; j++)
+            //    {
+            //        Console.WriteLine($"{i}*{j}={i * j}\t");
+            //    }
+            //    Console.WriteLine(" ");
+            //}
+
+
+
+            //task4 
+            //while (true)
+            //{
+            //    Console.WriteLine("Введіть a:");
+            //    int a = Convert.ToInt32(Console.ReadLine());
+            //    Console.WriteLine("Введіть b:");
+            //    int b = Convert.ToInt32(Console.ReadLine());
+
+            //    if (a>=0 &&a<=10 && b>=0 && b<=10)
+            //    {
+            //        Console.WriteLine($"{a * b}");
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Дані числа не припустимі");
+
+            //    } 
+            //}
+
+
+
+
+
 
             //Console.WriteLine("Task порахувати кількість простих чисел"); 
             //int i, count, j, n; 
@@ -594,47 +672,6 @@ namespace Project
 
 
 
-            //Console.WriteLine("Сортування масиву методом вставки"); 
-            //int[] b = new int[10] { 7, 8, 3, 4, 2, 5, 8, 7, 22, 3 };
-            //int i, j; 
-            //int t;
-
-            //for (i = 0; i < 9; i++)
-            //    for (j = i; j >= 0; j--)
-            //        if (b[j] < b[j + 1])
-            //        {
-            //            t = b[j];
-            //            b[j] = b[j + 1];
-            //            b[j + 1] = t;
-            //            Console.Write($"{t} ");
-
-            //        }
-
-
-            //Console.WriteLine("Сортування масиву методом вибору");
-            //int[] b = new int[10] { 7, 8, 3, 4, 2, 5, 8, 7, 22, 3 };
-            //int i, min, j, k;
-
-            //for (i = 0; i < b.Length - 1; i++)
-            //{
-            //    min = i;
-            //    for (j = i + 1; j < b.Length; j++)
-            //    {
-            //        if (b[j] > b[min])
-            //        {
-            //            min = j;
-            //        }
-
-            //    }
-            //    if (min != i)
-            //    {
-            //        k = b[i];
-            //        b[i] = b[min];
-            //        b[min] = k;
-            //    }
-
-            //}
-            //Console.Write($"{b}");
 
 
             //Лабораторна робота 4
@@ -849,6 +886,137 @@ namespace Project
             //    }
             //} 
             //Console.Write($"{a[max1]} -- перше місце, {a[max2]}--друге місце");
+
+
+            //Павловська Лабораторна робота №5 17варіант a
+            //int[] myArrey = new int[15];
+            //Random rand = new Random();
+            //for (int i = 0; i < myArrey.Length; i++)
+            //{
+            //    myArrey[i] = rand.Next(-20,20) ;
+            //    Console.Write($"{myArrey[i]} ");
+            //}
+            //Console.WriteLine(" ");
+            //int count = 0;
+            //foreach (int item in myArrey)
+            //{
+            //    if (item>=0)
+            //    {
+            //        count += 1;
+            //    }
+
+            //}
+            //Console.Write($"Кількість додатніх елементів в масиві{count}");
+
+
+
+            //Павловська Лабораторна робота №5 17варіант b
+            //int[] myArrey = new int[15];
+            //Random rand = new Random();
+            //for (int item = 0; item < myArrey.Length; item++)
+            //{
+            //    myArrey[item] = rand.Next(5);
+            //    Console.Write($"{myArrey[item]} ");
+            //}
+            //Console.WriteLine(" ");
+
+            //int i = myArrey.Length-1;
+            //int sum = 0;
+            //while (i>0)
+            //{
+            //    sum += myArrey[i];
+            //    i--;
+            //    if (myArrey[i] == 0)
+            //    {
+            //        break;
+            //    }
+
+            ////}
+            //Console.Write($"{sum}");
+
+
+
+
+            //Console.WriteLine("Сортування масиву методом вибору");
+
+            //int[] A = new int[10];
+            //Random rand = new Random();
+            //for (int item = 0; item < A.Length; item++)
+            //{
+            //    A[item] = rand.Next(10);
+            //    Console.Write($"{A[item]} ");
+            //}
+            //Console.WriteLine(" ");
+
+            //for (int i = 1; i < A.Length; i++)
+            //{
+            //    int x = A[i];
+            //    int j = i;
+            //    while (j > 0 && A[j-1]>x)
+            //    {
+            //        A[j] = A[j - 1];
+            //        j--;
+            //    }
+            //    A[j] = x;
+
+            //}
+            //for (int i = 0; i < A.Length; i++)
+            //{
+            //    Console.Write($"{A[i]}, ");
+            //}
+
+
+             
+
+            //Console.WriteLine("Сортування масиву методом вставки");
+            //int[] b = new int[10];
+            //Random rand = new Random();
+            //for (int item = 0; item < b.Length; item++)
+            //{
+            //    b[item] = rand.Next(10);
+            //    Console.Write($"{b[item]} ");
+            //}
+            //Console.WriteLine(" ");
+            //int i;
+
+            //for (i = 1; i < b.Length; i++)
+            //{
+            //    int key = b[i];
+            //    int j = i - 1;
+            //    while (j >= 0 && b[j] > key)
+            //    {
+            //        b[j + 1] = b[j];
+            //        b[j] = key;
+            //        j--; 
+            //    }    
+            //}
+            //for ( i = 0; i < b.Length; i++)
+            //{
+            //    Console.Write($"{b[i]}, ");
+            //}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
