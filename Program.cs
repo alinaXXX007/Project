@@ -674,7 +674,7 @@ namespace Project
 
 
 
-            //Лабораторна робота 4
+            //Лабораторна робота 4 одновимірні масиви + сортування
 
             //Console.WriteLine("Task 11.11");
             //int[] myArrey = new int[20];
@@ -966,7 +966,7 @@ namespace Project
             //}
 
 
-             
+
 
             //Console.WriteLine("Сортування масиву методом вставки");
             //int[] b = new int[10];
@@ -997,7 +997,272 @@ namespace Project
 
 
 
+            //лабораторна №5 багатовимірні масиви
 
+            //metanit
+            //int[,,] mas = {
+            //    {{1, 2}, {3, 4}},
+            //    {{4, 5}, {6, 7}},
+            //    {{7, 8}, {9, 10}},
+            //    {{10, 11}, {12, 13}}
+            //  };
+            //int x = mas.GetUpperBound(0);
+            //int y = mas.GetUpperBound(1); 
+            //int z = mas.GetUpperBound(2); 
+
+            //Console.Write("{");
+            //for (int i = 0; i <= x; i++)
+            //{
+            //    Console.Write("{");
+            //    for (int j = 0; j <= y; j++)
+            //    {
+            //        Console.Write("{");
+            //        for (int k = 0; k <= z; k++)
+            //        {
+            //            Console.Write(mas[i, j, k]);
+            //            if (k < z)
+            //                Console.Write(" , ");
+            //        }
+
+            //        Console.Write("}");
+            //        if (j < y)
+            //            Console.Write(" , ");
+            //    }
+            //    Console.Write("}");
+
+            //    if (i < x)
+            //        Console.Write(" , ");
+            //}
+            //Console.Write("}");
+            //Console.ReadLine();
+
+
+
+
+
+            //Console.WriteLine("Task 12.17a");
+            //int[][] arr = new int[2][];
+            //arr[0] = new int[4] { 1, 2, 3, 4 };  
+            //arr[1] = new int[5] { 1, 2, 3, 4, 5 };
+            //int a = arr[0][0];
+            //int b = arr[1][4];
+            //Console.WriteLine($"{a}, {b}");
+            //if (a>b)
+            //{
+            //    Console.WriteLine("елемент в лівому верхньому углу більший за елемент в правому нижньому углу");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("елемент в правому нижньому углу більший за елемент в лівому верхньому  углу");
+            //}
+
+
+
+            //Console.WriteLine("Task 12.17b");
+            //int[,] arr = new int[2,4] { { 1, 2, 3, 4 }, { 1, 2, 3, 5 } }; 
+            //int a = arr[0,3];
+            //int b = arr[1,0];
+            //Console.WriteLine($"{a}, {b}");
+            //if (a > b)
+            //{
+            //    Console.WriteLine("елемент в лівому нижньому углу менший за елемент в правому верхньому углу");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("елемент в правому верхньому углу менший за елемент в лівому нижньому углу");
+            //}
+
+
+
+
+            //Console.WriteLine("Task 12.31");
+            //int[,] mas = new int[4, 5];
+            //Random rander = new Random();
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    for (int j = 0; j < 5; j++)
+            //    {
+            //        mas[i, j] = rander.Next(15);
+            //        Console.Write("{0,4}", mas[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+
+
+            //Console.WriteLine("Task 12.41");
+            //int[,] a = new int[20, 12]; 
+            //Random random = new Random();
+            //for (int i = 0; i < 20; i++)
+            //{
+            //    for (int j = 0; j < 12; j++)
+            //    {
+            //        a[i, j] = random.Next(1000,15000);
+            //        //Console.Write("{0,4}", a[i, j]);
+            //    }
+            //   // Console.WriteLine();
+            //}
+            //Console.WriteLine("Введіть номер одного з 20 (0-19) працівників, суму заробітньої плати якого ви хочете дізнатись");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int sum = 0;
+            //for (int i = 0; i < 20; i++)
+            //{
+            //    for (int j = 0; j < 12; j++)
+            //    {
+            //        if (i == n)
+            //        {
+            //            sum += a[i, j]; 
+            //        }
+
+            //    }
+
+            //}
+            //Console.Write($"{sum}");
+
+
+
+            //Console.WriteLine("Task ");
+            //int[,] a = new int[10, 10];
+            //int c = 10;
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    for (int j = 0; j < 10; j++)
+            //    {
+            //        a[i, j] = c++;
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+
+            //    Console.WriteLine();
+            //}
+
+
+
+            //Console.WriteLine("Task 12.65");
+            //int[,] a1 = new int[20, 3];
+            //Random rand1 = new Random();
+            //int sum1 = 0;
+            //for (int i = 0; i < 20; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        a1[i, j] = rand1.Next(1, 5); 
+            //        sum1 += a1[i, j];
+            //    } 
+            //} 
+            //int quantity;
+            //quantity = a1.Length; 
+            //double avg1 = Convert.ToDouble(sum1 / quantity);
+            //Console.WriteLine($"{avg1}"); 
+
+            //int[,] a2 = new int[20, 3];
+            //Random rand2 = new Random();
+            //int sum2 = 0;
+            //for (int i = 0; i < 20; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        a2[i, j] = rand2.Next(1, 5); 
+            //        sum2 += a2[i, j];
+            //    } 
+            //} 
+            //double avg2 = Convert.ToDouble(sum2 / quantity);
+            //Console.WriteLine($"{avg2}");
+
+            //int[,] a3 = new int[20, 3];
+            //Random rand3 = new Random();
+            //int sum3 = 0;
+            //for (int i = 0; i < 20; i++)
+            //{
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        a3[i, j] = rand3.Next(1, 5);
+            //        sum3 += a3[i, j];
+            //    }
+            //}
+            //double avg3 = Convert.ToDouble(sum3 / quantity);
+            //Console.WriteLine($"{avg3}");
+
+            //if (avg1>avg2 && avg1>avg3)
+            //{
+            //    Console.WriteLine("середня оцінка 1 групи найбільша");
+            //}
+            //if (avg2 > avg1 && avg2 > avg3)
+            //{
+            //    Console.WriteLine("середня оцінка 2 групи найбільша");
+            //}
+            //else 
+            //{
+            //    Console.WriteLine("середня оцінка 3 групи найбільша");
+            //}
+
+
+            //Console.WriteLine("Task 12.89a");
+            //int[,] a = new int[4, 5];
+            //Random random = new Random();
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    for (int j = 0; j < 5; j++)
+            //    {
+            //        a[i, j] = random.Next(10, 15);
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+            //int max = 0;
+            //bool t = true;
+            //foreach (int item in a)
+            //{
+            //    if (t)
+            //    {
+            //        max = item;
+            //        t = false;
+            //    }
+            //    else
+            //    {
+            //        if (max < item)
+            //        {
+            //            max = item;
+            //        }
+
+            //    }
+            //}
+            //Console.WriteLine(" ");
+            //Console.WriteLine($"{max}");
+
+
+            Console.WriteLine("Task 12.89b");
+            int[,] a = new int[4, 5];
+            Random random = new Random();
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    a[i, j] = random.Next(1, 15);
+                    Console.Write("{0,4}", a[i, j]);
+                }
+                Console.WriteLine();
+            }
+            int min = 0;
+            bool t = true;
+            foreach (int item in a)
+            {
+                if (t)
+                {
+                    min = item;
+                    t = false;
+                }
+                else
+                {
+                    if (min > item)
+                    {
+                        min = item;
+                    }
+
+                }
+            }
+            Console.WriteLine(" ");
+            Console.WriteLine($"{min}");
 
 
 
