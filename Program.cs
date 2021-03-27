@@ -1074,6 +1074,67 @@ namespace Project
 
 
 
+            //Console.WriteLine("Task 12.23");
+
+            //int n = 8;
+            //int[,] a = new int[n, n]; 
+            //for (int i = 1; i <n; i++)
+            //{
+            //    for (int j = 1; j < n; j++)
+            //    {
+            //        if (i == j || j== n-i )
+            //        {
+            //            a[i, j] = 1;
+
+            //        }
+            //        else
+            //        {
+            //            a[i, j] = 0;
+            //        }
+
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine();
+
+            //for (int i = 1; i < n; i++)
+            //{
+            //    for (int j = 1; j < n; j++)
+            //    {
+            //        if (i == j || j == n - i || j==4 || i==4)
+            //        {
+            //            a[i, j] = 1;
+
+            //        }
+            //        else
+            //        {
+            //            a[i, j] = 0;
+            //        }
+
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine();
+            //for (int i = 1; i < n; i++)
+            //{
+            //    for (int j = 1; j < n; j++)
+            //    {
+            //        if (i == j || j == n - i || j==4 || i==1 || i==7 )
+            //        {
+            //            a[i, j] = 1; 
+            //        } 
+            //        else
+            //        {
+            //            a[i, j] = 0;
+            //        } 
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
 
             //Console.WriteLine("Task 12.31");
             //int[,] mas = new int[4, 5];
@@ -1128,7 +1189,7 @@ namespace Project
             //for (int i = 0; i < 10; i++)
             //{
             //    for (int j = 0; j < 10; j++)
-            //    {
+            //    { 
             //        a[i, j] = c++;
             //        Console.Write("{0,4}", a[i, j]);
             //    }
@@ -1231,49 +1292,144 @@ namespace Project
             //Console.WriteLine($"{max}");
 
 
-            Console.WriteLine("Task 12.89b");
-            int[,] a = new int[4, 5];
-            Random random = new Random();
-            for (int i = 0; i < 4; i++)
-            {
-                for (int j = 0; j < 5; j++)
-                {
-                    a[i, j] = random.Next(1, 15);
-                    Console.Write("{0,4}", a[i, j]);
-                }
-                Console.WriteLine();
-            }
-            int min = 0;
-            bool t = true;
-            foreach (int item in a)
-            {
-                if (t)
-                {
-                    min = item;
-                    t = false;
-                }
-                else
-                {
-                    if (min > item)
-                    {
-                        min = item;
-                    }
+            //Console.WriteLine("Task 12.89b");
+            //int[,] a = new int[4, 5];
+            //Random random = new Random();
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    for (int j = 0; j < 5; j++)
+            //    {
+            //        a[i, j] = random.Next(1, 15);
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+            //int min = 0;
+            //bool t = true;
+            //foreach (int item in a)
+            //{
+            //    if (t)
+            //    {
+            //        min = item;
+            //        t = false;
+            //    }
+            //    else
+            //    {
+            //        if (min > item)
+            //        {
+            //            min = item;
+            //        }
 
-                }
-            }
-            Console.WriteLine(" ");
-            Console.WriteLine($"{min}");
-
-
+            //    }
+            //}
+            //Console.WriteLine(" ");
+            //Console.WriteLine($"{min}");
 
 
 
+            //виводить обернену матрицю
+
+            //int[,] a = new int[4, 5];
+            //Random random = new Random();
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    for (int j = 0; j < 5; j++)
+            //    {
+            //        a[i, j] = random.Next(1, 15);
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine();
+            //for (int j =0; j<5; j++)
+            //{
+            //    for (int i=0; i<4; i++)
+            //    {
+
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
 
 
 
 
+            //Console.WriteLine("Task 12.113");
+            //int[,] a = new int[18, 12];
+            //Random random = new Random();
+            //for (int i = 0; i < 18; i++)
+            //{
+            //    for (int j = 0; j < 12; j++)
+            //    {
+            //        a[i, j] = random.Next(1000, 15000);
+            //        //Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    // Console.WriteLine();
+            //}
+            //Console.WriteLine("Введіть номер одного з 18 (0-17) працівників, суму заробітньої плати якого ви хочете порівняти");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int sum = 0;
+            //for (int i = 0; i < 20; i++)
+            //{
+            //    for (int j = 0; j < 12; j++)
+            //    {
+            //        if (i == n)
+            //        {
+            //            sum += a[i, j];
+            //        }
+
+            //    }
+
+            //}
+            ////Console.Write($"{sum}");
+            //// Console.WriteLine();
+            //Console.WriteLine("Введіть число з яким хочете порівняти суму ");
+            //int k = Convert.ToInt32(Console.ReadLine());
+            //if (sum > k)
+            //{
+            //    Console.WriteLine("Так річний дохід більше заданого числа");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No, I am sorry!");
+            //}
 
 
+            //Console.WriteLine("Task 12.137");
+
+            //int[,] a = new int[7, 9];
+            //Random random = new Random();
+            //for (int i = 0; i < 7; i++)
+            //{
+            //    for (int j = 0; j < 9; j++)
+            //    {
+            //        a[i, j] = random.Next(19, 23);
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine();
+            //for (int i = 0; i < 7; i++)
+            //{
+            //    for (int j = 0; j < 9; j++)
+            //    {
+            //        if ( j == 1)
+            //        {
+            //            if (a[i, j] == 21)
+            //            {
+            //                int k = i;
+            //                Console.Write($"{k+1} ");
+            //                break;
+            //            }
+
+            //        }
+
+            //    }
+            //}
+
+
+
+            
 
 
 
