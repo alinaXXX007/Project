@@ -361,7 +361,7 @@ namespace Project
 
         }
 
-        static void Main(string[] args)
+        static void Laba3()
         {
             //Лабораторна робота 3
 
@@ -649,10 +649,7 @@ namespace Project
             //    } 
             //}
 
-
-
-
-
+             
 
             //Console.WriteLine("Task порахувати кількість простих чисел"); 
             //int i, count, j, n; 
@@ -671,9 +668,10 @@ namespace Project
             //    Console.WriteLine($"{count} ");
 
 
+        }
 
-
-
+        static void Laba4()
+        {
             //Лабораторна робота 4 одновимірні масиви + сортування
 
             //Console.WriteLine("Task 11.11");
@@ -936,7 +934,6 @@ namespace Project
 
 
 
-
             //Console.WriteLine("Сортування масиву методом вибору");
 
             //int[] A = new int[10];
@@ -994,8 +991,11 @@ namespace Project
             //{
             //    Console.Write($"{b[i]}, ");
             //}
+             
+        }
 
-
+        static void Laba5()
+        {
 
             //лабораторна №5 багатовимірні масиви
 
@@ -1349,8 +1349,7 @@ namespace Project
             //        Console.Write("{0,4}", a[i, j]);
             //    }
             //    Console.WriteLine();
-            //}
-
+            //} 
 
 
 
@@ -1413,44 +1412,221 @@ namespace Project
             //{
             //    for (int j = 0; j < 9; j++)
             //    {
-            //        if ( j == 1)
+            //        if (j == 1)
             //        {
             //            if (a[i, j] == 21)
             //            {
             //                int k = i;
-            //                Console.Write($"{k+1} ");
+            //                Console.Write($"{k + 1} ");
             //                break;
             //            }
 
             //        }
 
             //    }
+
+            //}
+
+
+            //Console.WriteLine("Task 12.161   Заменить значения всех элементов побочной диагонали квадратного масси-
+            //ва значениями, равными 100.");
+
+            //int[,] a = new int[9, 9];
+            //Random random = new Random();
+            //for (int i = 0; i < 9; i++)
+            //{
+            //    for (int j = 0; j < 9; j++)
+            //    {
+            //        a[i, j] = random.Next(19, 23);
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine();
+            //int n = 8;
+
+            //for (int i = 0; i < 9; i++)
+            //{
+            //    for (int j = 0; j < 9; j++)
+            //    {
+            //        if (j == n - i)
+            //        {
+            //            a[i, j] = 100;
+
+            //        }
+
+            //        Console.Write($"{a[i, j]} ");
+
+            //    }
+            //    Console.WriteLine();
             //}
 
 
 
-            
+            //Console.WriteLine("Task 12.185  Составить программу, которая определяет, есть ли хотя бы один элемент,
+            //равный заданному числу на побочной диагонали квадратного массива. В случае положительного ответа должны 
+            //быть напечатаны координаты любого из них.");
+
+            //int[,] a = new int[9, 9];
+            //Random random = new Random();
+            //for (int i = 0; i < 9; i++)
+            //{
+            //    for (int j = 0; j < 9; j++)
+            //    {
+            //        a[i, j] = random.Next(0, 4);
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine();
+
+            //int n = 8; 
+            //for (int i = 0; i < 9; i++)
+            //{
+            //    for (int j = 0; j < 9; j++)
+            //    {
+            //        if (j == n - i)
+            //        {
+            //            if (a[i, j] == 1)
+            //            {
+            //                Console.WriteLine($"{i+1},{j+1}");
+
+            //            }
+
+            //        }
+
+            //    }
+            //    break;   
+            //}
+
+
+            //Console.WriteLine("Task 12.209, але замінює всі відповідні елементи)
+
+            //int[,] a = new int[6, 6];
+            //Random random = new Random();
+            //for (int i = 0; i < 6; i++)
+            //{
+            //    for (int j = 0; j < 6; j++)
+            //    {
+            //        a[i, j] = random.Next(0, 10);
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine();
+            ////1 частина 
+            //for (int i = 0; i < 6; i++)
+            //{
+            //    for (int j = 0; j < 6; j++)
+            //    {
+            //        if (a[i, j] % 2 == 0)
+            //        {
+            //            a[i, j] -= 1;
+
+            //        }
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine();
+
+            //// 2 частина
+            //for (int i = 0; i < 6; i++)
+            //{
+            //    for (int j = 0; j < 6; j++)
+            //    {
+            //        if (a[i, j] == 0)
+            //        {
+            //            a[i, j] = 1;
+
+            //        }
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+
+            //Console.WriteLine("Task 12.233, видалити 5 стовпець)
+
+            //int[,] a = new int[16, 12];
+            //Random random = new Random();
+            //for (int i = 0; i < 16; i++)
+            //{
+            //    for (int j = 0; j < 12; j++)
+            //    {
+            //        a[i, j] = random.Next(0, 10);
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine();
+            //for (int i = 0; i < 16; i++)
+            //{
+            //    for (int j = 0; j < 12; j++)
+            //    {
+            //        if (j == 4) 
+            //        {
+            //            continue;
+            //        }
+            //        Console.Write("{0,4}", a[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine();
 
 
 
 
+            //Console.WriteLine("Task 12.257)
 
+            //int[,] A = new int[6, 6];
+            //Random rand = new Random();
+            //for (int i = 0; i < 6; i++)
+            //{
+            //    for (int j = 0; j < 6; j++)
+            //    {
+            //        A[i, j] = rand.Next(0, 9);
+            //        Console.Write("{0,4}", A[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine();
 
+            //for (int i = 0; i < 6; i++)
+            //{
+            //    for (int j = 0; j < 6; j = j + 2)
+            //    {
+            //        int p = A[i, j];
+            //        A[i, j] = A[i, j + 1];
+            //        A[i, j + 1] = p;
+            //    }
+            //}
+            //Console.WriteLine("Масив з зміненими стовпццями");
+            //for (int i = 0; i < 6; i++)
+            //{
+            //    for (int j = 0; j < 6; j++)
+            //    {
+            //        Console.Write("{0,4}", A[i, j]);
+            //    }
+            //    Console.WriteLine();
+            //}
+        }
 
+        static void Main(string[] args)
+        {
 
+            //Complex myObj = new Complex(3, 7);
 
+            //Console.WriteLine(myObj.Div(2.3, 4.3));
 
+            //myObj.Equ(8.5,4.5);
+            ////Console.WriteLine($"{number}");
 
-
-
-
-
-
-
-
-
-
-
+            Cat oly = new Cat();
+            Console.WriteLine(oly.Name);
         }
     }
+
 }
+
