@@ -4,6 +4,11 @@ using System.Text;
 
 namespace Project
 {
+    public enum Gender
+    {
+        female,
+        male
+    }
     class Cat
     {
         string name;
@@ -12,11 +17,7 @@ namespace Project
                 return name;
             } 
         }
-        public enum Gender
-        {
-            female,
-            male
-        }
+         
         double _energy;
         
         public static readonly double MaxEnergy = 20;
@@ -35,7 +36,7 @@ namespace Project
                 {
                     Console.WriteLine("Not enough energy to jump & quot");
                 }
-                 else if (value > MaxEnergy)
+                else if (value > MaxEnergy)
                 {
                     _energy = MaxEnergy;
                 }
@@ -46,10 +47,10 @@ namespace Project
             }
         }
 
-        public Cat(string name="Lucky", string Gender="male")
+        public Cat()
         {
             name="Lucky";
-            Gender = "male";
+            Gender g = Gender.male;
             Energy = MaxEnergy;
         }
         public void Jump(double newEnergy)

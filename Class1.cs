@@ -11,44 +11,54 @@ namespace Project
             get {
                 return a;
             }
-            set {
+            set
+            {
                 a = value;
-            } 
+            }
+             
         }
         double b;
-        public double B { get; set; }
+        public double B
+        {
+            get
+            {
+                return b;
+            }
+            set
+            {
+                b = value;
+            }
 
-
+        }
 
         public Complex(double a, double b)
         {
-            this.a = a; 
+            this.a = a;
             this.b = b;
-           
-             
+            
         }
 
-        public double Add(double c=4.5, double d=3.5)
+        public Complex Add(Complex f)
         {
-            return (a - b) + (c + d);
+            return new Complex(a + f.a, b + f.b);
         }
-        public double Sub(double a, double b, double c = 4.5, double d = 3.5)
+        public Complex Sub(Complex f)
         {
-            return (a - b) - (c - d);
+            return new Complex(a - f.b, b - f.a);
         }
-        public double Mn(double a, double b, double c = 4.5, double d = 3.5)
+        public double Mn(Complex f)
         {
-            return (a * c) - (b * d);
+            return ((a * f.a - b * f.b)) * (a * f.b + b * f.a);
             
         }
-        public double Div(double a, double b, double c = 4.5, double d = 3.5)
+        public double Div(Complex f)
         {
-            return (a*c+b*d)/(c*c+d*d);
+            return (a * f.a + b * f.b) / (f.a * f.a + f.b * f.b);
             
         }
-        public void Equ(double a, double b, double c = 4.5, double d = 3.5)
+        public void Equ(Complex f)
         {
-            if (a==c && b == d)
+            if (a==f.a && b == f.b)
             {
                 Console.WriteLine("True");
             }

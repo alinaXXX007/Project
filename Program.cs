@@ -1616,15 +1616,20 @@ namespace Project
         static void Main(string[] args)
         {
 
-            //Complex myObj = new Complex(3, 7);
+            Complex complex1 = new Complex(8.0, 9.0);
 
-            //Console.WriteLine(myObj.Div(2.3, 4.3));
+            Complex complex3 = complex1.Sub(complex1);
+            Console.WriteLine(complex3.A);
+            Console.WriteLine(complex3.B);
 
-            //myObj.Equ(8.5,4.5);
-            ////Console.WriteLine($"{number}");
+             complex1.Equ(complex1);
 
-            Cat oly = new Cat();
-            Console.WriteLine(oly.Name);
+           
+
+             
+            //Cat oly = new Cat();
+
+            //Console.WriteLine(Cat.MaxEnergy);
         }
     }
 
