@@ -6,8 +6,8 @@ namespace Project
 {
     public enum Gender
     {
-        female,
-        male
+        Female,
+        Male
     }
     class Cat
     {
@@ -17,7 +17,7 @@ namespace Project
                 return name;
             } 
         }
-         
+        
         double _energy;
         
         public static readonly double MaxEnergy = 20;
@@ -30,7 +30,7 @@ namespace Project
             {
                 return _energy;
             }
-            set
+            private set
             {
                 if (value < MinEnergy)
                 {
@@ -47,19 +47,19 @@ namespace Project
             }
         }
 
-        public Cat()
+        public Cat(string name, Gender gender)
         {
-            name="Lucky";
-            Gender g = Gender.male;
+            this.name=name;
+            Gender g = gender;
             Energy = MaxEnergy;
         }
-        public void Jump(double newEnergy)
+        public void Jump()
         {
-            newEnergy = Energy - JumpEnergyDrain;
+            Energy -= JumpEnergyDrain;
         }
-        public void Sleep(double newSleepEnergy)
+        public void Sleep()
         {
-            newSleepEnergy = Energy + SleepEnergyGain;
+            Energy += SleepEnergyGain;
         }
     }
 

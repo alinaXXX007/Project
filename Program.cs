@@ -1616,20 +1616,24 @@ namespace Project
         static void Main(string[] args)
         {
 
-            Complex complex1 = new Complex(8.0, 9.0);
+            //Complex complex1 = new Complex(8.0, 9.0);
 
-            Complex complex3 = complex1.Sub(complex1);
-            Console.WriteLine(complex3.A);
-            Console.WriteLine(complex3.B);
+            //Complex complex3 = complex1.Sub(complex1);
+            //Console.WriteLine(complex3.A);
+            //Console.WriteLine(complex3.B);
 
-             complex1.Equ(complex1);
+            // complex1.Equ(complex1);
 
-           
 
-             
-            //Cat oly = new Cat();
+            //Cat only = new Cat("lucky", Gender.Male);
+            //Console.WriteLine(only.Energy);
 
-            //Console.WriteLine(Cat.MaxEnergy);
+            //only.Jump();
+            //Console.WriteLine(only.Energy);
+
+            Triangle stert = new Triangle(2, 3, 4);
+            stert.Square(6,8,6,20);
+            Console.WriteLine(stert);
         }
     }
 
