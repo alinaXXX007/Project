@@ -1625,15 +1625,19 @@ namespace Project
             // complex1.Equ(complex1);
 
 
-            //Cat only = new Cat("lucky", Gender.Male);
-            //Console.WriteLine(only.Energy);
+            //Dog only = new Dog("red", 7.8f, 15);
+            //Console.WriteLine(only.ToString());
 
             //only.Jump();
             //Console.WriteLine(only.Energy);
 
-            Triangle stert = new Triangle(2, 3, 4);
-            stert.Square(6,8,6,20);
-            Console.WriteLine(stert);
+            //Triangle stert = new Triangle(2, 3, 4);
+            //stert.Square(6,8,6,20);
+            //Console.WriteLine(stert);
+
+            //Book forest = new Book("Gues", 100, 18, "Themerys", "Ruta");
+            //Console.WriteLine(forest.ToString());
+            //Console.WriteLine(forest.GetType());
         }
     }
 

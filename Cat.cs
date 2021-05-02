@@ -9,9 +9,10 @@ namespace Project
         Female,
         Male
     }
-    class Cat
+    class Cats
     {
         string name;
+        Gender gender { get; }
         public string Name { 
             get {
                 return name;
@@ -34,7 +35,7 @@ namespace Project
             {
                 if (value < MinEnergy)
                 {
-                    Console.WriteLine("Not enough energy to jump & quot");
+                    throw new Exception ("Not enough energy to jump & quot");
                 }
                 else if (value > MaxEnergy)
                 {
@@ -42,15 +43,15 @@ namespace Project
                 }
                 else
                 {
-                    _energy = value;
+                    _energy = value;        
                 }
             }
         }
 
-        public Cat(string name, Gender gender)
+        public Cats(string name, Gender g)
         {
             this.name=name;
-            Gender g = gender;
+            this.gender = g;
             Energy = MaxEnergy;
         }
         public void Jump()
